@@ -1,0 +1,8 @@
+{
+  "api_shodan"    : "",
+  "censys_secret" : "",
+  "censys_uid"    : "",
+  "onyphe_api"    : "",
+  "binaryedge_api": "",
+  "spyse_api"     : ""
+}
