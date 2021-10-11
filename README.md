@@ -25,3 +25,9 @@ optional arguments:
                         Input Queries separated by newline
   -a apikeys, --api apikeys     Input in json with the API key of the services. Please, read the example file
 </pre>
+
+How to run with docker:
+<pre>
+docker build -t passivequery .
+docker run -v /Users/mac/Public/configkuber:/config passivequery python3 passivequery.py -i /config/queries.txt -o /config/out.txt -a /config/ipscanapikeys.json
+</pre>
