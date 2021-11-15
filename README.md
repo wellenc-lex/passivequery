@@ -31,3 +31,7 @@ How to run with docker:
 docker build -t passivequery .
 docker run -v /Users/mac/Public/configkuber:/config passivequery python3 passivequery.py -i /config/queries.txt -o /config/out.txt -a /config/ipscanapikeys.json
 </pre>
+
+Example queries: "domain.com" or "nginx", etc
+
+Just a quick getaway for parsing IPs behind cloudflare/vulnerable servers/etc
