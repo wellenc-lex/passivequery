@@ -9,7 +9,7 @@ Install the dependencies via pip:
  
 python passivequery.py -i query.txt -a apikeys.json -o output.txt 
   
-You need update your own API KEYS in the parameter file api.json. In the repository there is a example.
+You need to insert your own API KEYS in the api.json.
  
 <pre>
 python3 passivequery.py -h
